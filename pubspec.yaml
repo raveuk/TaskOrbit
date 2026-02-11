@@ -1,0 +1,78 @@
+name: taskorbit_flutter
+description: "TaskOrbit - ADHD-focused productivity app with beautiful UI"
+publish_to: 'none'
+
+version: 1.4.5+9
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local Database
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+  # Animations
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.2
+
+  # UI Components
+  google_fonts: ^6.2.1
+  flutter_slidable: ^3.1.1
+  percent_indicator: ^4.2.3
+  fl_chart: ^0.68.0
+
+  # Utilities
+  intl: ^0.19.0
+  shared_preferences: ^2.2.3
+
+  # HTTP/API
+  http: ^1.2.0
+  dio: ^5.4.0
+
+  # File operations
+  path_provider: ^2.1.2
+  url_launcher: ^6.2.4
+  open_filex: ^4.4.0
+  package_info_plus: ^8.0.0
+  permission_handler: ^12.0.0
+
+  # Environment variables
+  flutter_dotenv: ^5.1.0
+
+  # Notifications
+  flutter_local_notifications: ^17.2.3
+
+  # Audio
+  audioplayers: ^6.0.0
+
+  # Voice Recognition (Offline - Vosk)
+  vosk_flutter_service: ^0.0.6
+
+  # Celebrations
+  confetti: ^0.7.0
+
+  # Location Services
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/
